@@ -1,14 +1,15 @@
-function navbar(){
+function Navbar(){
     const navstyle = {
-        padding: "100%",
+        wheight: "100%",
         backgroundColor: "black",
-        color: "white"
+        color: "white",
+        display: "flex",
     };
 
     return (
-        <nav classname='nav-element' style={navstyle}>
+        <nav className='nav-element' style={navstyle}>
             <ul>
-                <li>Inicio</li>
+                <li>prueba</li>
                 <li>Contacto</li>
                 <li>Ubicacion</li>
             </ul>
@@ -16,4 +17,4 @@ function navbar(){
     );
 }
 
-export default navbar; 
+export default Navbar; 
