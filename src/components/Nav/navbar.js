@@ -10,7 +10,7 @@ function navbar(){
             <ul>
                 <li>Inicio</li>
                 <li>Contacto</li>
-                <li>Mapa</li>
+                <li>Ubicacion</li>
             </ul>
         </nav>
     );
